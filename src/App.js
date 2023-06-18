@@ -57,14 +57,14 @@ function App() {
                 </div>
             ):(
           <div>
-          <h2>Add User</h2>
+          <h2>Add Student</h2>
           <AddStudent addStudent={addStudent}/>
           </div>
           
           )
           }
           <div className='seven columns'>
-          <h2>View user</h2>
+          <h2>View Students</h2>
           <UserTable students={students} deleteUser={deleteUser} editStudent={editStudent} />
           </div>
         </div>
